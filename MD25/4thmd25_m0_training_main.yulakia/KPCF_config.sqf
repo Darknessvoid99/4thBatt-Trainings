@@ -1,9 +1,9 @@
 KPCF_cratefillerBase = [
-	"B_Slingload_01_Repair_F"	
+	"4thmd_s_static_kpl"	
 ];
 
 // The Spawn object is the point where crates will spawn and acts the center for the KPCF_spawnRadius
-KPCF_cratefillerSpawn = "Land_Decal_roads_oil_stain_04_F";
+KPCF_cratefillerSpawn = "4thmd_s_ccs_kpl";
 
 // This variable defines if the player will be able to spawn and delete crates
 KPCF_canSpawnAndDelete = true;
@@ -27,11 +27,26 @@ KPCF_crates = [
 	"4thmd_cgo_e_6",
 	"4thmd_cgo_e_eod",
 	"4thmd_cgo_e_med",
-	"4thmd_s_va1_std",
-	"4thmd_s_val_wood",
-	"ACE_Wheel",
+	"4thmd_s_ft1_forest",
+	"4thmd_s_ft1_sand",
+	"4thmd_s_jc1_std",
 	"ACE_Track",
-	"4thmd_s_ft1_forest"
+	"ACE_Wheel",
+	"4thmd_s_va1_std",
+	"4thmd_s_va2_std",
+	"FL_parts_avionics",
+	"FL_parts_controlsurfaces",
+	"FL_parts_fueltanklarge",
+	"FL_parts_fueltanksmall",
+	"FL_parts_gunfcs",
+	"FL_parts_enginepistonlarge",
+	"FL_parts_enginepistonmedium",
+	"FL_parts_enginepistonsmall",
+	"FL_parts_rotorassembly",
+	"FL_parts_turretdrive",
+	"FL_parts_engineturbinesmall",
+	"FL_parts_engineturbinelarge",
+	"FL_parts_SpareParts"
 ];
 
 
