@@ -41,5 +41,6 @@ if (hasInterface) then {
     KPCF_sortedExplosives = [KPCF_explosives] call KPCF_fnc_sortList;
     KPCF_sortedItems = [KPCF_items] call KPCF_fnc_sortList;
     KPCF_sortedBackpacks = [KPCF_backpacks] call KPCF_fnc_sortList;
+	KPCF_sortedMagazines = [KPCF_magazines] call KPCF_fnc_sortList;
 
 };

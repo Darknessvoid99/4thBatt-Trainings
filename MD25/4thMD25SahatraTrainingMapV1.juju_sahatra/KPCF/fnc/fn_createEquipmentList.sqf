@@ -55,11 +55,11 @@ switch (_catIndex) do {
     case 1 : {
         _ctrlWeapon ctrlShow true;
         {
-            _index = _ctrlWeapon lbAdd (_x select 0);
-            _ctrlWeapon lbSetData [_index , _x select 1];
+            _index = _ctrlEquipment lbAdd (_x select 0);
+            _ctrlEquipment lbSetData [_index , _x select 1];
             _config = [_x select 1] call KPCF_fnc_getConfigPath;
-            _ctrlWeapon lbSetPicture [_index, getText (configFile >> _config >> (_x select 1) >> "picture")];
-        } forEach KPCF_sortedWeapons;
+            _ctrlEquipment lbSetPicture [_index, getText (configFile >> _config >> (_x select 1) >> "picture")];
+        } forEach KPCF_sortedMagazines;
     };
 
     // Attachments
