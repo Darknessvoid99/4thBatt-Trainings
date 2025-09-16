@@ -35,6 +35,13 @@ KPCF_crates = [
 	"ACE_Wheel",
 	"4thmd_s_va1_std",
 	"4thmd_s_va2_std",
+	"L118_Pallet_L31A3",
+	"L118_Pallet_L35A3",
+	"L118_Pallet_L36",
+	"L118_Pallet_L37A2",
+	"L118_Pallet_L38A2",
+	"L118_Pallet_43A2",
+	"L118_FuseCrate_L33A2"
 ];
 
 
